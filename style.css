@@ -321,6 +321,11 @@ a {
 .menu {
 	z-index: 2;
 }
+.menu .social-links img {
+	z-index: 2;
+	cursor: pointer;
+	color: black;
+}
 .menu {
 	cursor: pointer;
 }
