@@ -18,22 +18,25 @@ body {
 }
 .portfolio {
 	color: white;
-	background: radial-gradient(rgba(43, 55, 96, 1), rgba(11, 16, 35, 1));
+	padding: 40px 0px;
+
+	background: radial-gradient(rgb(24, 31, 51), rgba(11, 16, 35, 1));
 }
 nav {
-	min-height: 10vh;
-	width: 90%;
+	/* min-height: 10vh; */
+	width: 100%;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 20px 0px;
+	padding: 1.5% 5%;
+	background: radial-gradient(rgb(24, 31, 51), rgba(11, 16, 35, 1));
 }
 .logo {
 	font-size: 20px;
 }
 .page {
-	min-height: 90vh;
+	min-height: 40vh;
 	display: grid;
 	grid-template-columns: 5% 1fr 1fr 1fr 5%;
 }
@@ -81,6 +84,7 @@ nav {
 h1 {
 	font-size: 64px;
 }
+
 .details h2 {
 	font-size: 60px;
 	font-family: PopRegular;
@@ -138,7 +142,7 @@ h1 {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	object-position: top;
+	object-position: center;
 }
 .author {
 	position: absolute;
@@ -155,6 +159,9 @@ h1 {
 .author h3 {
 	padding: 10px 0px;
 	font-size: 32px;
+}
+main {
+	position: relative;
 }
 .story,
 .my-work {
@@ -283,8 +290,11 @@ h1 {
 .nav-open p {
 	font-size: 18px;
 }
-.social-links img {
-	padding: 0px 20px;
+.social {
+	z-index: 99;
+}
+.contact a {
+	color: black;
 }
 .social-links a {
 	padding: 0px 5px;

@@ -14,62 +14,72 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<div class="portfolio">
-			<header>
-				<nav>
-					<h3 class="logo">Tonia</h3>
-					<svg
-						class="menu"
-						fill="none"
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 43 23"
-						width="43px"
-						height="23px"
-					>
-						<line y1="1.5" x2="43" y2="1.5" stroke="white" stroke-width="3" />
-						<line y1="11.5" x2="28" y2="11.5" stroke="white" stroke-width="3" />
-						<line y1="21.5" x2="16" y2="21.5" stroke="white" stroke-width="3" />
+		<header>
+			<nav>
+				<h3 class="logo">Tonia</h3>
+				<svg
+					class="menu"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 43 23"
+					width="43px"
+					height="23px"
+				>
+					<line y1="1.5" x2="43" y2="1.5" stroke="white" stroke-width="3" />
+					<line y1="11.5" x2="28" y2="11.5" stroke="white" stroke-width="3" />
+					<line y1="21.5" x2="16" y2="21.5" stroke="white" stroke-width="3" />
 
-						<!-- <path d="M0 12H26V14H0zM0 4H26V6H0zM0 20H26V22H0z" /> -->
-					</svg>
-					<div class="nav-open">
-						<div class="contact">
-							<h3>Contact</h3>
-							<p>Email: toniaroganti@gmail.com</p>
-						</div>
-						<div class="social">
-							<h3>social</h3>
-							<div class="social-links">
-								<a href=""
-									><img src="./img/github.png" alt="github" width="20"
-								/></a>
+					<!-- <path d="M0 12H26V14H0zM0 4H26V6H0zM0 20H26V22H0z" /> -->
+				</svg>
+				<div class="nav-open">
+					<div class="contact">
+						<h3>Contact</h3>
+						<p>
+							<a href="mailto:toniaroganti@gmail.com">toniaroganti@gmail.com</a>
+						</p>
+					</div>
+					<div class="social">
+						<h3>social</h3>
 
-								<a href="">
-									<img src="./img/linkedIn.png" alt="LinkedIn" width="20"
-								/></a>
-							</div>
+						<div class="social-links">
+							<a href="https://github.com/mstoniajohn"
+								><img src="./img/github.svg" alt="github" width="20"
+							/></a>
+
+							<a href="">
+								<img src="./img/linkedin.svg" alt="LinkedIn" width="20"
+							/></a>
 						</div>
 					</div>
+				</div>
+				<!-- <img src="./img/menu-icon.svg" alt="" /> -->
+			</nav>
+			<div class="banner">
+				<img src="./img/banner.jpg" alt="" />
+				<div class="author">
+					<h1>Hi I'm Tonia</h1>
+					<h3>Full Stack Developer</h3>
 
-					<!-- <img src="./img/menu-icon.svg" alt="" /> -->
-				</nav>
-			</header>
+					<p class="social-links">
+						<a class="link" href="tonia-resume.pdf" download="toniaresume"
+							><i class="fas fa-file-download"> </i> Resume
+						</a>
+						<a class="link" href="https://www.linkedin.com/in/tonia-roganti/">
+							<i class="fab fa-linkedin-in"></i> LinkedIn</a
+						>
+
+						<a class="link" href="https://github.com/mstoniajohn">
+							<i class="fab fa-github"></i> Github</a
+						>
+					</p>
+				</div>
+			</div>
+		</header>
+		<div class="portfolio">
 			<main>
 				<section class="page project-1">
 					<div class="details">
-						<h1>Hello, I am Tonia!</h1>
-						<div class="social-links">
-							<a class="link" href="tonia-resume.pdf" download="toniaresume"
-								><i class="fas fa-file-download"> </i> Resume
-							</a>
-							<a class="link" href="https://www.linkedin.com/in/tonia-roganti/">
-								<i class="fab fa-linkedin-in"></i> LinkedIn</a
-							>
-
-							<a class="link" href="https://github.com/mstoniajohn">
-								<i class="fab fa-github"></i> Github</a
-							>
-						</div>
+						<h3>About Me</h3>
 						<p>
 							Passionate self-taught programmer. I love to code in Javascript
 							for Web Apps and Python or Node.js for my backend. I am currently
@@ -86,7 +96,7 @@
 				</section>
 				<section class="page project-2">
 					<div class="details">
-						<h2>Realtime Chat</h2>
+						<h3>Realtime Chat</h3>
 						<p>
 							This Chat Application was built with Vue and Firebase for storage.
 							Users can create an account and login. They will then be
@@ -108,7 +118,26 @@
 				</section>
 				<section class="page project-3">
 					<div class="details">
-						<h2>Url Shortener</h2>
+						<h3>Url Shortener</h3>
+						<p>This app allows you to truncate long urls.</p>
+						<p>
+							<a href="https://github.com/mstoniajohn/urlshortener"
+								>View Code</a
+							>
+							- <a href="http://www.urlsnippet.com/">View Demo</a>
+						</p>
+					</div>
+					<div class="hero">
+						<a href="./projects.html">
+							<!-- project pic -->
+							<img class="model-left" src="./img/model-left.jpg" alt="" />
+							<img class="model-right" src="./img/model-right.jpg" alt=""
+						/></a>
+					</div>
+				</section>
+				<section class="page project-3">
+					<div class="details">
+						<h3>Url Shortener</h3>
 						<p>This app allows you to truncate long urls.</p>
 						<p>
 							<a href="https://github.com/mstoniajohn/urlshortener"
@@ -154,6 +183,19 @@
 					</div>
 					<div class="page-3">
 						<h3>03</h3>
+						<svg
+							class="slide"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 12 12"
+							width="12"
+							height="12"
+							fill="none"
+						>
+							<circle cx="6" cy="6" r="6" fill="white" />
+						</svg>
+					</div>
+					<div class="page-4">
+						<h3>04</h3>
 						<svg
 							class="slide"
 							xmlns="http://www.w3.org/2000/svg"
