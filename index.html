@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			defer
+			src="https://kit.fontawesome.com/3fc91aed62.js"
+			crossorigin="anonymous"
+		></script>
+
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="portfolio">
+			<header>
+				<nav>
+					<h3 class="logo">Tonia</h3>
+					<svg
+						class="menu"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+						viewBox="0 0 43 23"
+						width="43px"
+						height="23px"
+					>
+						<line y1="1.5" x2="43" y2="1.5" stroke="white" stroke-width="3" />
+						<line y1="11.5" x2="28" y2="11.5" stroke="white" stroke-width="3" />
+						<line y1="21.5" x2="16" y2="21.5" stroke="white" stroke-width="3" />
+
+						<!-- <path d="M0 12H26V14H0zM0 4H26V6H0zM0 20H26V22H0z" /> -->
+					</svg>
+					<div class="nav-open">
+						<div class="contact">
+							<h3>Contact</h3>
+							<p>email</p>
+						</div>
+						<div class="social">
+							<h3>social</h3>
+							<div class="social-links">
+								<img src="./img/" alt="github" />
+								<img src="./img/" alt="LinkedIn" />
+							</div>
+						</div>
+					</div>
+
+					<!-- <img src="./img/menu-icon.svg" alt="" /> -->
+				</nav>
+			</header>
+			<main>
+				<section class="page project-1">
+					<div class="details">
+						<h1>Hello, I am Tonia!</h1>
+						<div class="social-links">
+							<a class="link" href="tonia-resume.pdf" download="toniaresume"
+								><i class="fas fa-file-download"> </i> Resume
+							</a>
+							<a class="link" href="https://www.linkedin.com/in/tonia-roganti/">
+								<i class="fab fa-linkedin-in"></i> LinkedIn</a
+							>
+
+							<a class="link" href="https://github.com/mstoniajohn">
+								<i class="fab fa-github"></i> Github</a
+							>
+						</div>
+						<p>
+							Passionate self-taught programmer. I love to code in Javascript
+							for Web Apps and Python or Node.js for my backend. I am currently
+							working on a blogging app for my friends for fun.
+						</p>
+					</div>
+					<div class="hero">
+						<!-- project pic -->
+						<a href="./index.html">
+							<img class="model-left" src="./img/model-left.jpg" alt="" />
+							<img class="model-right" src="./img/model-right.jpg" alt="" />
+						</a>
+					</div>
+				</section>
+				<section class="page project-2">
+					<div class="details">
+						<h1>Projects</h1>
+						<h2>Realtime Chat</h2>
+
+						<p>
+							This Chat Application was built with Vue and Firebase for storage.
+							Users can create an account and login. They will then be
+							redirected to the chatroom.
+						</p>
+						<p>
+							<a href="https://github.com/mstoniajohn/publicchat">View Code</a>
+							- <a href="https://ultracoderoom.com/">View Demo</a>
+						</p>
+					</div>
+					<div class="hero">
+						<!-- project pic -->
+						<img class="model-left" src="./img/model-left.jpg" alt="" />
+						<img class="model-right" src="./img/model-right.jpg" alt="" />
+					</div>
+				</section>
+				<section class="page project-3">
+					<div class="details">
+						<h2>Url Shortener</h2>
+						<p>This app allows you to truncate long urls.</p>
+						<p>
+							<a href="https://github.com/mstoniajohn/urlshortener"
+								>View Code</a
+							>
+							- <a href="http://www.urlsnippet.com/">View Demo</a>
+						</p>
+					</div>
+					<div class="hero">
+						<a href="./projects.html">
+							<!-- project pic -->
+							<img class="model-left" src="./img/model-left.jpg" alt="" />
+							<img class="model-right" src="./img/model-right.jpg" alt=""
+						/></a>
+					</div>
+				</section>
+				<div class="pages">
+					<div class="page-1">
+						<h3>01</h3>
+						<svg
+							class="slide active"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 12 12"
+							width="12"
+							height="12"
+							fill="none"
+						>
+							<circle cx="6" cy="6" r="6" fill="white" />
+						</svg>
+					</div>
+					<div class="page-2">
+						<h3>02</h3>
+						<svg
+							class="slide"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 12 12"
+							width="12"
+							height="12"
+							fill="none"
+						>
+							<circle cx="6" cy="6" r="6" fill="white" />
+						</svg>
+					</div>
+					<div class="page-3">
+						<h3>03</h3>
+						<svg
+							class="slide"
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 12 12"
+							width="12"
+							height="12"
+							fill="none"
+						>
+							<circle cx="6" cy="6" r="6" fill="white" />
+						</svg>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"
+			integrity="sha512-8Wy4KH0O+AuzjMm1w5QfZ5j5/y8Q/kcUktK9mPUVaUoBvh3QPUZB822W/vy7ULqri3yR8daH3F58+Y8Z08qzeg=="
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TimelineMax.min.js"
+			integrity="sha512-lJDBw/vKlGO8aIZB8/6CY4lV+EMAL3qzViHid6wXjH/uDrqUl+uvfCROHXAEL0T/bgdAQHSuE68vRlcFHUdrUw=="
+			crossorigin="anonymous"
+		></script>
+		<script src="app.js"></script>
+	</body>
+</html>
