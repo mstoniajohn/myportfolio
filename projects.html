@@ -1,52 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<title>Document</title>
-	</head>
-	<body>
-		<main>
-			<div class="banner">
-				<img src="./img/projects.jpg" alt="" />
-				<div class="author">
-					<h1>name</h1>
-					<h3>discription</h3>
-				</div>
-			</div>
-			<div class="story">
-				<div class="story-description">
-					<h3>project</h3>
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
-						eligendi aliquid nulla pariatur repudiandae odit, voluptate
-						consectetur odio illo laborum nisi voluptas eius adipisci, iste
-						excepturi ratione nam voluptates fugiat.
-					</p>
-				</div>
-				<div class="profile">
-					<img src="" alt="" />
-				</div>
-			</div>
-			<div class="my-work">
-				<div class="work-description">
-					<h3>work</h3>
-					<p>
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias
-						eligendi aliquid nulla pariatur repudiandae odit, voluptate
-						consectetur odio illo laborum nisi voluptas eius adipisci, iste
-						excepturi ratione nam voluptates fugiat.
-					</p>
-				</div>
-				<div class="work-gallery">
-					<img src="" alt="" /><img src="" alt="" /><img src="" alt="" /><img
-						src=""
-						alt=""
-					/><img src="" alt="" /><img src="" alt="" />
-				</div>
-			</div>
-		</main>
-	</body>
-</html>
+/* eslint-disable no-console */ import { register } from
+'register-service-worker' if (process.env.NODE_ENV === 'production') {
+register(`${process.env.BASE_URL}service-worker.js`, { ready () { console.log(
+'App is being served from cache by a service worker.\n' + 'For more details,
+visit https://goo.gl/AFskqB' ) }, registered () { console.log('Service worker
+has been registered.') }, cached () { console.log('Content has been cached for
+offline use.') }, updatefound () { console.log('New content is downloading.') },
+updated () { console.log('New content is available; please refresh.') }, offline
+() { console.log('No internet connection found. App is running in offline
+mode.') }, error (error) { console.error('Error during service worker
+registration:', error) } }) }
