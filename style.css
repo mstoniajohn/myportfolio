@@ -262,6 +262,26 @@ main {
 		opacity: 0;
 		pointer-events: none;
 	}
+	/* .pages {
+		position: absolute;
+		right: 5%;
+		top: 50%;
+		transform: translateY(-50%);
+	} */
+	/* .pages > div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	} */
+	.pages h3 {
+		font-size: 19px;
+		padding: 15px;
+	}
+	.pages svg {
+		cursor: pointer;
+		opacity: 0.5;
+		transform: scale(2);
+	}
 }
 .nav-open {
 	position: absolute;
