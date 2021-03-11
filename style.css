@@ -15,6 +15,7 @@
 }
 body {
 	font-family: PopLight;
+	background: radial-gradient(rgb(24, 31, 51), rgba(11, 16, 35, 1));
 }
 .portfolio {
 	color: white;
