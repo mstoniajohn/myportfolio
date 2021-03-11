@@ -4,9 +4,9 @@ function init() {
 	const slides = document.querySelectorAll('.slide');
 	const pages = document.querySelectorAll('.page');
 	const backgrounds = [
-		`radial.gradient(#2b3760, #0b1023)`,
-		`radial.gradient(#4e3022, #161616)`,
-		`radial.gradient(#4e43042, #161616)`,
+		`radial-gradient(#2b3760, #0b1023)`,
+		`radial-gradient(#4e3022, #161616)`,
+		`radial-gradient(#4e43042, #161616)`,
 	];
 	//  tracker for current page
 	let current = 0;
