@@ -234,6 +234,12 @@ main {
 	}
 }
 @media (max-width: 768px) {
+	nav {
+		/* min-height: 10vh; */
+
+		padding: 4% 5%;
+		background: radial-gradient(rgb(24, 31, 51), rgba(11, 16, 35, 1));
+	}
 	.hero img {
 		height: 300px;
 	}
