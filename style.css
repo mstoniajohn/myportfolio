@@ -39,7 +39,7 @@ nav {
 .page {
 	min-height: 40vh;
 	display: grid;
-	grid-template-columns: 5% 1fr 1fr 1fr 5%;
+	grid-template-columns: 4% 1fr 1fr 1fr 4%;
 }
 .hero a {
 	display: flex;
@@ -265,8 +265,9 @@ main {
 		padding-top: 10px;
 	}
 	.hero img {
-		height: 300px;
+		height: 200px;
 	}
+
 	.details h1 {
 		font-size: 38px;
 	}
@@ -280,8 +281,10 @@ main {
 	}
 	.page {
 		grid-template-columns: 5% 1fr 5%;
-		grid-template-rows: 2fr 1fr;
+		grid-template-rows: 1fr 1fr;
 		align-items: center;
+
+		padding-top: 20px;
 	}
 	.project-2,
 	.project-3 {
@@ -293,7 +296,7 @@ main {
 		pointer-events: none;
 	}
 	.portfolio {
-		padding: 20px 0px;
+		padding: 0px 0px;
 	}
 	/* .pages {
 		position: absolute;
